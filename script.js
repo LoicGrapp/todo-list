@@ -39,7 +39,7 @@ function renderToDoList () {
     actualArray.forEach(function(todoItem, index) {
         const listItem = document.createElement('li');
 
-        listItem.textContent = todoItem + ' ';
+        listItem.textContent = todoItem;
 
         const doneButton = document.createElement('button');
         doneButton.textContent = 'Fait';
